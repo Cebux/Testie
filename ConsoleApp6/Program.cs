@@ -10,6 +10,15 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
+            string[] menu = new string[]{ "C - Hello", "E - Boys" };
+
+            foreach (string str in menu)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine(str);
+
+            }
+            Console.ReadLine();
         }
     }
 }
