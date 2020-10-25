@@ -10,7 +10,7 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
-            string[] menu = new string[]{ "C - Hello", "E - Boys" };
+            string[] menu = new string[]{ "C - Hello", "E - Boys", "S - Fuck my wife"};
 
             foreach (string str in menu)
             {
